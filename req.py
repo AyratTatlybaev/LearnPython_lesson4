@@ -10,5 +10,5 @@ def get_weather(url):
 # а не импортирована в качестве модуля
 if __name__ == "__main__":
 	data = get_weather("http://api.openweathermap.org/data/2.5/weather?id=479561&APPID=8ded20b5e0dc6be380bc14a80d526bb2&units=metric")
-	popular_names = get_weather("http://api.data.mos.ru/v1/datasets/2009/rows")
+	#popular_names = get_weather("http://api.data.mos.ru/v1/datasets/2009/rows")
 	#print(popular_names)
